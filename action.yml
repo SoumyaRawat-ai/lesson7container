@@ -11,8 +11,8 @@ outputs:
   result: 
     description: 'output of the sun of 2 numbers'
 runs:
-  using: 'docker'
-  image: 'dockerfile'
+  using: docker
+  image: dockerfile
   args:
     - ${{ inputs.number1 }}
     - ${{ inputs.number2 }}
